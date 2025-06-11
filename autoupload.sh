@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 cd "$(dirname "$0")"
 
@@ -22,6 +22,7 @@ else
 fi
 
 git push origin main
+
 
 lineas_modificadas=$(git show --stat --oneline -1 | grep "changed" | awk '{print $1}')
 
