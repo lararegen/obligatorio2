@@ -12,7 +12,7 @@ if [ -z "$estado_git" ]; then
     echo "No hay commits nuevos para enviar."
     exit 0
   else
-    echo "Hay commits sin eviar. Procediendo a hacer push."
+    echo "Hay commits sin enviar. Procediendo a hacer push."
   fi
 else
   echo "Se detectaron cambios sin commit. Realizando commit automatico..."
