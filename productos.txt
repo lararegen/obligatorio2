@@ -1,0 +1,2 @@
+productoUno|El mejor Producto|100|1
+prodUno|El mejor producto|100|1
